@@ -193,7 +193,7 @@ elif my_page == 'News summarization':
         
 elif my_page == 'Sentiment-based recommendations':
     st.title('Recommending articles based on predicted sentiments')
-    df = pd.read_csv("data/rappler-2024-cleaned-st.csv").sort_values(
+    df = pd.read_csv("schools-sentiment-labeled.csv").sort_values(
         'date', ascending=False
     )
     
